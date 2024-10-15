@@ -25,11 +25,11 @@
 
 ## 📥 Cómo Descargar la Aplicación
 
-La aplicación está disponible para su descarga desde la [www.xtract-net.com](#). Allí puedes acceder a un instalador seguro y verificado. Asegúrate de seguir las instrucciones de instalación para comenzar a utilizarla.
+La aplicación está disponible para su descarga desde la MEDIAFIRE [https://www.mediafire.com/file/wqta39o24tbbv9h/extractor_gui.zip/file](#). Allí puedes acceder a un instalador seguro y verificado. Asegúrate de seguir las instrucciones de instalación para comenzar a utilizarla.
 
 ---
 
-## 📸 Capturas de Pantalla
+## 📸 Logotipo Oficial
 
 ![Interfaz de la Aplicación](https://johnlennonl.github.io/Xtract.NET/xtract.png)
 
