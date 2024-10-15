@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.contenedorUno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+a{
+    color: rgba(66, 66, 235, 0.959);
+    text-align: center;
+    text-decoration: none;
+}
