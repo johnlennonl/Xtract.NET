@@ -8,12 +8,41 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     flex-direction: column;
+    text-align: center;
 }
 
 a{
     color: rgba(66, 66, 235, 0.959);
     text-align: center;
     text-decoration: none;
+}
+
+.Logotipo{
+    width: 300px;
+    
+}
+
+.btn-download{
+    background-color: rgba(66, 66, 235, 0.959);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
