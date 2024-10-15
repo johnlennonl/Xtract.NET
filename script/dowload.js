@@ -7,7 +7,7 @@
 
  function updateDownloadCount() {
      downloadCount++;
-     downloadCounter.textContent = `THANKS YOU FOR DOWNLOADING `;
+     downloadCounter.textContent = `¡ THANKS YOU FOR DOWNLOADING ! `;
  }
 
  // Agrega el evento de click al botón para la descarga y actualización del contador

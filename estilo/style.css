@@ -133,8 +133,13 @@ a{
   
 #downloadCounter {
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     color: #323232;
     font-weight: 700;
+}
+
+.descargas{
+    color: #323232;
+    width: 100%;
 }
