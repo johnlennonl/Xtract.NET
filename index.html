@@ -13,52 +13,90 @@
 </head>
 
 <body>
+   <div class="container-fluid">
     <div class="d-flex justify-content-center">
-        <img  src="xtract.png" alt="Logo" class="Logotipo img-fluid">
+        <img src="xtract.png" alt="Logo" class="Logotipo img-fluid">
     </div>
     <div class="contenedorUno">
         <div class="container">
             <h1>Descargar Extractor de Correos Electrónicos</h1>
             <p>Con nuestra herramienta, puedes filtrar correos electrónicos por dominio de manera sencilla. Ideal para
                 profesionales que manejan grandes listas de correos.</p>
-           <button class="btn-download"> <a href="https://www.mediafire.com/file/wqta39o24tbbv9h/extractor_gui.zip/file" class="btn-download"
-            download="Extractor_Correos.zip">Descargar Ahora</a></button>
+                <div class="d-flex justify-content-center">
+                    <button id="downloadButton" class="button" type="button">
+                    </a>
+                    <span class="button__text">Download</span>
+                    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span></button>
+                </div>
         </div>
         <div>
-    </div>
-
-    <section class=" container  mt-5">
-           <!-- Swiper -->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="imagenes/image.png" alt="Imagen 1">
-            </div>
-            <div class="swiper-slide">
-                <img src="imagenes/image2.png" alt="Imagen 2">
-            </div>
-            <div class="swiper-slide">
-                <img src="imagenes/image3.png" alt="Imagen 3">
-            </div>
-            <div class="swiper-slide">
-                <img src="imagenes/image4.png" alt="Imagen 3">
-            </div>
         </div>
-        <!-- Botones de navegación -->
-        <!-- <div class="swiper-button-next"></div>
+
+        <section class=" contenedorInformacion container text-start mt-5">
+            <h3>📧 Extractor de Correos Electrónicos</h3>
+            <p>Extractor de Correos Electrónicos es una aplicación de escritorio desarrollada en Python con una interfaz
+                gráfica simple y amigable utilizando tkinter. Permite a los usuarios filtrar listas de correos
+                electrónicos por dominio específico (como hotmail.com, outlook.com, live.com, etc.) de forma rápida y
+                sencilla.</p>
+                <h4>🚀 Características </h4>
+                <ul class="text-start">
+                    <li>🔍 Filtrado de correos: Introduce una lista de correos y un dominio, y la aplicación extraerá solo aquellos que coincidan con el dominio especificado.</li>
+                    <li>🖥️ Interfaz intuitiva: La aplicación cuenta con dos ventanas principales: <br>
+                        1 - Una para ingresar la lista de correos. <br> 2 - Otra para mostrar los correos filtrados.</li>
+                    <li>💾 Guardado de resultados: Exporta los correos filtrados a un archivo .txt para una fácil gestión.</li>
+                    <li>🎨 Estilo personalizado: Diseño moderno con botones estilizados y un ícono de aplicación personalizado.</li>
+                </ul>
+
+                <h4>🛠️ Tecnologías Utilizadas</h4>
+                <ul class="text-start">
+                    <li>Python</li>
+                    <li>tkinter</li>
+                    <li>Regex</li>
+                    <li>Swiper</li>
+                </ul>
+
+                <h4>✉️ Contacto</h4>
+                <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de jojopow2410@gmail.com.</p>
+        </section>
+
+        <section class=" contenedorInformacion  container">
+            <h3 class="text-start">📸 Capturas de Pantalla </h3>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imagenes/image.png" alt="Imagen 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagenes/image2.png" alt="Imagen 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagenes/image3.png" alt="Imagen 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagenes/image4.png" alt="Imagen 3">
+                    </div>
+                </div>
+                <!-- Botones de navegación -->
+                <!-- <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div> -->
-        <!-- Paginación -->
-        <div class="swiper-pagination"></div>
-    </div>
-    </section>
-    <footer class="mt-4">
-        © 2024 LennonDeveloper. Todos los derechos reservados.
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+                <!-- Paginación -->
+                
+            </div>
+        </section>
+   </div>
+        <footer class=" text-center mt-4">
+            © 2024 LennonDeveloper. Todos los derechos reservados.
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
         <script src="script/app.js"></script>
+        <script src="script/redirect.js"></script>
+
+
+        
 
 </body>
 
