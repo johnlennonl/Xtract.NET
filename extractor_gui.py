@@ -1,11 +1,21 @@
+import os
+import sys
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import re
 
+def resource_path(relative_path):
+    """ Obtiene la ruta del archivo, tanto si se ejecuta como script o como ejecutable. """
+    try:
+        # PyInstaller crea una carpeta temporal para el ejecutable empaquetado
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 def filtrar_correos(lista_correos, dominio):
-    """
-    Filtra una lista de correos electrónicos para incluir solo aquellos que terminan con el dominio especificado.
-    """
+    """ Filtra una lista de correos electrónicos para incluir solo aquellos que terminan con el dominio especificado. """
     return [correo.strip() for correo in lista_correos if correo.strip().endswith(f"@{dominio}")]
 
 def ejecutar_filtrado():
@@ -47,8 +57,9 @@ ventana.title("Extractor de Correos Electrónicos")
 ventana.geometry("600x610")
 ventana.configure(bg="#f0f0f0")
 
-# Agregar el logo a la ventana
-ventana.iconbitmap("logo.ico")
+# Agregar el logo a la ventana usando la función resource_path
+icon_path = resource_path("logo.ico")
+ventana.iconbitmap(icon_path)
 
 # Etiqueta y entrada para el dominio
 tk.Label(ventana, text="Ingrese el dominio a filtrar:", bg="#f0f0f0", font=("Arial", 12)).pack(pady=10)
