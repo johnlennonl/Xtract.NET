@@ -133,5 +133,8 @@ a{
   
 #downloadCounter {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 1rem;
+    text-align: center;
+    color: #323232;
+    font-weight: 700;
 }
